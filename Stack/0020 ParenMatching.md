@@ -1,4 +1,5 @@
-#### 1st Solution: check whether closing paren matches w/ opening
+#### 1st Solution: 
+check whether closing paren matches w/ opening
 ```cpp
 bool isValid(string s) {
     stack<char> parenStack;
@@ -25,7 +26,8 @@ bool isValid(string s) {
 }
 ```
 
-#### 2nd Solution: push expected closing paren onto stack, & check whether closing matches w/ top of stack
+#### 2nd Solution: 
+push expected closing paren onto stack, & check whether closing matches w/ top of stack
 ```cpp
  bool isValid(string s) {
         stack<char> parenStack;
