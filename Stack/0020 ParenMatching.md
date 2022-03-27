@@ -40,10 +40,10 @@ push expected closing paren onto stack, & check whether closing matches w/ top o
                 parenStack.push(']');
             else if (s[i] == '{')
                 parenStack.push('}');
-            else { //must be closing paren (check whether curr closing paren matches with the innermosted nested)
+            else { //must be closing paren (check whether curr closing paren matches with the innermost nested)
                 if (parenStack.empty() or parenStack.top() != s[i])
                     return false;
-                parenStack.pop();
+                parenStack.pop(); // so we could compare the next inner nested paren
             }
         }
         return parenStack.empty(); //everything pops out i.e. "{{" would be false
