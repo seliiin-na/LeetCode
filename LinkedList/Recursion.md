@@ -1,6 +1,6 @@
 #### #21 Merge 2 Sorted Lists
 
-```
+```cpp
 ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) { 
     if (list1 == nullptr)
         return list2;
