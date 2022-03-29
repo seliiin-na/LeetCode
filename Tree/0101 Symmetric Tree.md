@@ -1,6 +1,6 @@
 #### Things To Note: 
-1. use helper function (pass in 2 nodes)!
-2. remember to check if node has NO children
+1. use helper function (pass in 2 nodes; LL & RR; LR && RL)
+2. remember to check if node has NO children (i.e. p == nullptr and q == nullptr)
 
 ```cpp
 bool isSymmetric(TreeNode* root) {
