@@ -1,4 +1,8 @@
-#### 0021-Merge 2 Sorted Lists
+#### Things to note:
+1. use recursion
+2. remember to link the head of final list to the next smallest number! (i.e. list->next =... )
+
+
 
 ```cpp
 ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) { 
