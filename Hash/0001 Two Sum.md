@@ -1,5 +1,6 @@
 #### Things to note:
 * use one-pass hash table
+* find() and end() functions for hash
 * find the index of the complement of the curr looping #
 
 ```cpp
