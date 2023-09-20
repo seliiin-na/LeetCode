@@ -19,3 +19,16 @@
 ```
 3. if want to remove duplicates, use a *SET* to store keys/record seens <br>
    (dictionary _NOT_ needed bc no need to store value)
+
+4. get the most repeated char from `str`
+```python
+    ASCII_SIZE = 256
+    freq = [0] * ASCII_SIZE  # initialize list of specified size
+    for i in str:
+        freq[i] += 1
+    # ...loop thru freq to find the max freq...
+    # return the corresponding ASCII char of the index with max freq -> `chr(97)`
+```
+
+
+
