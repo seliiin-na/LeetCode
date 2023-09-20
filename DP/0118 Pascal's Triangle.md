@@ -1,4 +1,4 @@
-[problem link](https://leetcode.com/problems/pascals-triangle/description/)
+[Problem Link](https://leetcode.com/problems/pascals-triangle/description/)
 
 ### why DP?
 * optimal substructure (use info from prev row to compute the present row)
