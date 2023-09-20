@@ -1,6 +1,7 @@
 [Problem Link](https://leetcode.com/problems/palindrome-linked-list/description/)
 
 ### Things to Note
+<img width="400" alt="image" src="https://github.com/seliiin-na/LeetCode/assets/89162258/997032a0-5f12-4101-af3c-02704b03b508"> <br>
 1. use 2 running men technique to find middle of list (a fast & a slow pointer) -- if len(list) is odd, include the mid point in 1st half
 2. reverse the 2nd half of the list in place (*pointer manipulation!!)
 ```python
