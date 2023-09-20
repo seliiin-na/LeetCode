@@ -4,9 +4,9 @@
 
 ### Things to Note: 
 1. start from bottom, work ur way up -> bottom up DP
-2. **base case**: last slot si always **1** bc it's at the goal <br>
+2. **base case**: last slot is always **1** bc it's at the goal <br>
     NOTE: 2nd-to-last slots could only be 1 as well bc only 1 step to goal (else out of bound)
-3. **recurrence**: how many options can you go from step 2? <br>
+3. **recurrence**: how many options can you reach the goal from step 2? <br>
     num options from step 3 + num options from step 4
 
 <img width="500" alt="image" src="https://github.com/seliiin-na/LeetCode/assets/89162258/d22e6ebc-eb79-4ca1-b968-1574e0b47072">
