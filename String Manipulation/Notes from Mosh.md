@@ -17,4 +17,5 @@
   return (len(str1) == len(str2) &&
           str2 in (str1 + str1))
 ```
-
+3. if want to remove duplicates, use a *SET* to store keys/record seens <br>
+   (dictionary _NOT_ needed bc no need to store value)
