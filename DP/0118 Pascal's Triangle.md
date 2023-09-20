@@ -6,7 +6,8 @@
 
   
 ### Things to Note:
-1. visualize the triangle as if it were left-aligned
+1. visualize the triangle as if it were left-aligned <img width="300" alt="image" src="https://github.com/seliiin-na/LeetCode/assets/89162258/8caddd4f-3f9e-485c-b5e9-48bf55af1327">
+
 2. **Base case:** <br>
    the value at the beginning & end of a row is 1
 3. **recurrence case:** <br>
