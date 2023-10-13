@@ -26,8 +26,8 @@
     freq = [0] * ASCII_SIZE  # initialize list of specified size
     for i in str:
         freq[i] += 1
-    # ...loop thru freq to find the max freq...
-    # return the corresponding ASCII char of the index with max freq -> `chr(97)`
+    # ...loop thru `freq` to find the max freq...
+    # return the corresponding ASCII char of the index with max freq -> i.e. `chr(97)`
 ```
 
 
