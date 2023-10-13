@@ -26,10 +26,11 @@ class Solution:
         for i in range(1, numRows):
             curr_row = []
             prev_row = result[i - 1]
+
             # edge
             curr_row.append(1)
             # use dp to accumulate sum from prev row
-            for j in range(0, len(prev_row) - 1):
+            for j in range(0, len(prev_row) - 1):   # to account for the "+ 1" next line
                 curr_row.append(prev_row[j] + prev_row[j + 1])
             # edge
             curr_row.append(1)
