@@ -10,7 +10,7 @@
 
 2. **Base case:** <br>
    the value at the beginning & end of a row is 1
-3. **recurrence case:** <br>
+3. **Recurrence case:** <br>
    each num = sum of 2 nums directly above it <br>
  ```triangle[row][col] = triangle[row-1][col-1] + triangle[row-1][col]```
 
