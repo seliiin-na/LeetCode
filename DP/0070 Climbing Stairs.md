@@ -17,8 +17,7 @@ class Solution:
         if n == 0 or n == 1:
             return 1
 
-        # create memo with n + 1 slots
-        # initialize a list w/ (n + 1) slots
+        # create memo with n + 1 slots and initialize everything to 0
         dp = [0] * (n + 1)
         dp[0] = dp[1] = 1
 
