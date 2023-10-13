@@ -1,9 +1,13 @@
-Given an unsorted integer array `nums`, return the smallest missing positive integer.
-You must implement an algorithm that runs in O(n) time and uses constant extra space.
+[Problem Link](https://leetcode.com/problems/first-missing-positive/description/) <br>
+[NeetCode Explanation](https://www.google.com/search?q=leetcode+find+first+missing+positive&oq=leetcode+find+first+&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBwgBEAAYgAQyBggCEEUYOTIHCAMQABiABDIKCAQQABiGAxiKBTIKCAUQABiGAxiKBTIKCAYQABiGAxiKBTIKCAcQABiGAxiKBdIBCDM5NDFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:247c56e0,vid:8g78yfzMlao,st:0)
 
+**Need further modification + understanding!!
 ### Things to Note:
-* use `HashSet` to store all the existing nums
-* then starting from 1 (smallest positive integer), check if it is in the set. 
+1. No matter what input values we get, n belongs to the set `{1, len(input_arr) + 1}`
+2. scan input, replace all negative w/ 0's (bc neg. don't matter)
+3. 
+4. use `HashSet` to store all the existing nums
+5.  then starting from 1 (smallest positive integer), check if it is in the set. 
 
 
 ```java
